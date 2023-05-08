@@ -1,0 +1,53 @@
+/* signup page */
+body{
+	background-color: #22272A;
+}
+.main{
+	border: 1px solid red;
+	width: 500px;
+	margin: 0px auto; 
+	margin-top: 100px;
+	height: 500px;
+	color: white;
+}
+.heading{
+	font-family: calibri;
+	font-size: 50px;
+}
+.input1{
+	width: 100%;
+	border: none;
+	background-color: #22272A;
+	color: wihite;
+	font-size: 16px;
+	border-bottom: 1px solid white;
+	padding: 10px;
+	font-family: calibri;
+
+
+
+}
+.signup{
+	background: white;
+	border: none;
+	float: right;
+	padding: 10px 20px;
+	margin-top: 15px;
+	margin-right: -25px;
+	font-size: 20px;
+	color: #22272A;
+	font-family: calibri;
+	
+}
+.tabletop{
+	font-family: calibri;
+	color: palevioletred;
+	font-size: 18px;
+	font-style: italic;
+}
+.forget password{
+	font-family: calibri;
+	color: palevioletred;
+	font-size: 18px;
+	font-style: italic;
+}

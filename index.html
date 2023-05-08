@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job search</title>
+    <link rel="stylesheet"href="style.css">
+    <script src="script.js"> </script>
+
+</head>
+<body>
+    
+  <header>
+  
+    <div class="container">
+
+    <nav>
+        <ul>
+            <li><a href="index.html" class="logo"><img src="logo.jpg" alt="logo" class="center" height="30px"></a></li>
+            <div class="box"><li><a href="index.html" ><b>Home</b></a></li></div>
+            <div class="box"><li><a href="about.html" ><b>About</b></a></li></div>
+            <div class="box"><li><a href="find.html"><b>Find jobs</b></a></li></div>
+            <div class="box"><li><a href="account.html"><b>Account</b></a></li></div>
+            <!-- <div class="box"><li><a href="login.html">Login</a></li></div> -->
+
+            
+                <div id="btn"></div>
+            <li><button type="button" class="toggle-btn" onclick="login()" ><a href="login.html"><strong>Log-In</strong></a></button></li>
+            <li><button type="button" class="toggle-btn" onclick="Signup()"><a href="login.html"><strong> Signup</strong></a></button></li>
+                </div>
+            
+        </ul>
+    </nav>
+
+    </div>
+</header>
+
+<br>
+<br>
+<br>
+
+<div class="logo"><img src="logo.jpg" alt="logo" class="center" height="100px"></div>
+
+<h1 style="color: rgb(13, 79, 120);" ><b style="color: rgb(8, 135, 93);" class="logo">JOB</b> <b>SEEKER</b></h1>
+<form onsubmit="searchJobs(); return false;">
+    <div id="search" style="border-color: rgb(8, 135, 93); border-radius: 10px;"><input type="text" id="searchBox" placeholder="Search for a job..."></div>
+    <div id="but"><button type="submit" >Search</button></div>
+
+</form>
+
+<div id="results">
+
+
+    </div>
+
+<!-- <section class="#Home" id="Home">
+    <div class="content">
+        <span class="hi">hi there..
+        </span>
+        <h3>
+            <span>job seeker</span>
+        </h3>
+        <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, animi. Soluta, neque? Eaque architecto molestias, reprehenderit ab consectetur odio quaerat tenetur officiis labore deserunt quas non praesentium qui quia eligendi eveniet repellat. Repellendus?</p>
+    </div>
+    <h2>my home page</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis necessitatibus praesentium pariatur. Ut excepturi saepe debitis iure, commodi rerum aperiam!</p>
+    <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis optio, hic iste dolor at ipsam quisquam, consequuntur enim obcaecati placeat ad vero?</p>
+</section> -->
+
+<!-- <script>
+    var x=document.getElementById("login");
+    var y=document.getElementById("Signup");
+    var z=document.getElementById("btn");
+    function Signup(){
+        x.style.left="-400px";
+        y.style.left="50px";
+        z.style.left="110px";
+    }
+    function login(){
+        x.style.left="50px";
+        y.style.left="450px";
+        z.style.left="0";
+    }
+
+</script>   -->
+
+</body>
+</html>

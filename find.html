@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Find a Job</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="account.css"> -->
+    
+    
+    <style>
+      /* nav {
+          background-color:  #75c2d7;
+          border: 1px solid #ccc;
+          padding: 10px;
+        }
+        
+        nav ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+        
+        nav li {
+          display: inline-block;
+          margin-right: 10px;
+        }
+        
+        nav a {
+          color: #333;
+          text-decoration: none;
+          padding: 5px;
+        } */
+
+        /*flexbox*/
+       
+
+
+      /* CSS style rules go here */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+      }
+      
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+      
+      form {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin: 20px;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      
+      input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+      }
+      
+      input[type=submit] {
+        background-color: #333;
+        color: #fff;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #555;
+      }
+      
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+    </style> 
+  </head>
+  <body>
+    <div class="container">
+
+      <nav>
+          <ul>
+              <li><a href="index.html" class="logo"><img src="logo.jpg" alt="logo" class="center" height="30px"></a></li>
+              <div class="box"><li><a href="index.html" ><b>Home</b></a></li></div>
+              <div class="box"><li><a href="about.html" ><b>About</b></a></li></div>
+              <div class="box"><li><a href="find.html"><b>Find jobs</b></a></li></div>
+              <div class="box"><li><a href="account.html"><b>Account</b></a></li></div>
+              <!-- <div class="box"><li><a href="login.html">Login</a></li></div> -->
+  
+              
+                  <div id="btn"></div>
+              <li><button type="button" class="toggle-btn" onclick="login()" ><a href="login.html"><strong>Log-In</strong></a></button></li>
+              <li><button type="button" class="toggle-btn" onclick="Signup()"><a href="login.html"><strong> Signup</strong></a></button></li>
+                  </div>
+              
+          </ul>
+      </nav>
+  
+      </div>
+  
+    <header>
+      <h1>Find a Job</h1>
+    </header>
+    <form>
+      <label for="job-title">Job Title:</label>
+      <input type="text" id="job-title" name="job-title" placeholder="Enter a job title...">
+      
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location" placeholder="Enter a location...">
+
+
+      
+      <input type="submit" value="Search">
+    </form>
+    <footer>
+      <p>&copy; 2023 Find a Job. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

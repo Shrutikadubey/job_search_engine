@@ -1,0 +1,151 @@
+h1 {
+  text-align: center;
+  font-size: 36px;
+}
+h1{
+   font-style: rgb(2, 51, 65);
+}
+body{
+	background-color: white;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  width: 500px;
+  height: 40px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px aquamarine;
+  border-color: aquamarine;
+
+}
+
+button[type="submit"] {
+  
+  height: 40px;
+  margin-left: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #46c4a6;
+  color: #fff;
+  cursor: pointer;
+  align-items: center;
+}
+
+#results {
+  margin: 20px 0;
+}
+ul{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  display: inline-flex;
+list-style: none;
+color: #fff;
+}
+ul li{
+  list-style: none;
+  margin:0 20px;
+}
+header{
+/* background-color: #52caeb; */
+}
+a{
+	text-decoration: none;
+	
+}
+
+h1{
+	text-shadow: 1px 3px 2px rgb(4, 6, 126);
+}
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+.container {
+	display: flex;
+	flex-direction: row;
+	border: 1px solid #007bff ;
+
+	gap: 100px 10px;
+  }
+
+  .box {
+	/* height: 100px; */
+  text-align: center;
+  padding: 10px;
+	width: 150px;
+	border: 1px solid #007bff;
+	box-shadow: 2px 2px 7px 1px #007bff;
+	box-sizing: border-box;
+  }
+
+  #btn {
+    text-decoration: none;
+	margin-left: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 1px solid #2eb1d2;
+	box-shadow: 2px 2px 7px 1px #27a6bd;
+	box-sizing: border-box;
+
+	/* display: flex; */
+	/* flex-direction: row; */
+	border: 1px solid #007bff ;
+
+	/* gap: 100px 10px; */
+
+  }
+
+  .box:hover{
+    zoom: 110%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px 1px rgb(41, 198, 185);
+	background-color: rgb(61, 225, 237) ;
+	font-style: oblique bold ;
+	font-weight: 2px;
+	padding: 10px ;
+	/* border: 2px solid #007bff; */
+  }
+
+#searchBox {
+  zoom: 110%;
+  border-color: rgb(41, 198, 185);;
+  border-radius: 30px;
+  box-shadow: 2px 2px 7px 1px rgb(8, 135, 93); ;
+}
+
+#searchBox:hover {
+  border-color: rgb(200, 156, 46);
+  border-radius: 10px;
+  box-shadow: 2px 2px 7px 1px rgb(242, 174, 3);
+}
+
+.toggle-btn:hover {
+  zoom: 130%;
+  border-color: rgb(120, 174, 240);
+  border-radius: 10px;
+  box-shadow: 7px 7px 7px 1px rgb(41, 198, 185);
+}
+
+.logo:hover {
+  zoom: 125%;
+}
+
+button:hover {
+  border-color: rgb(200, 156, 46);
+  background-color: rgb(242, 174, 3);
+  box-shadow: 2px 2px 7px 1px rgb(242, 174, 3);
+  zoom: 110%;
+}
+
